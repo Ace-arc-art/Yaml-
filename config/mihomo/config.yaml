@@ -132,9 +132,6 @@ proxy-groups:
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
   - RULE-SET,private_ip,直连,no-resolve
-  - SRC-IP-CIDR,192.168.3.154/32,任天堂
-  - SRC-IP-CIDR,192.168.3.152/32,任天堂
-  - DOMAIN,srv.nintendo.net,任天堂
   - RULE-SET,private_domain,直连
   - RULE-SET,nintendo_domain,任天堂
   - RULE-SET,playstation_domain,🎮 游戏
