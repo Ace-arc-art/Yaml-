@@ -3,10 +3,10 @@
 # 跑裸核用户请自行去掉下方控制面板模块的注释。
 # 机场订阅
 proxy-providers:
-  花150:
+  A1:
     url: "https://1da5d8a2743d.ai-163cdn.com/sub?target=clash&clash.doh=true&emoji=true&scv=true&udp=true&new_name=true&filename=YToo_Trojan&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D151289%26token%3DeeGUNPm15ltPNLSUgUfL"
     type: http
-    interval: 86400
+    interval:
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
@@ -139,6 +139,7 @@ rules:
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,nintendo_domain,🎮 任天堂
   - RULE-SET,playstation_domain,🎮 Playstation
+  - RULE-SET,games_domain,🎮 任天堂
   - RULE-SET,ai,🤖 Ai
   - RULE-SET,github_domain,🧑🏻‍💻 GitHub
   - RULE-SET,youtube_domain,⏯️ YouTube
@@ -171,6 +172,7 @@ rule-providers:
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/rules/proxy.list"}
   nintendo_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nintendo.mrs"}
   playstation_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/playstation.mrs"}
+  games_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/games.mrs"}
   ai: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
