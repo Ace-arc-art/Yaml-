@@ -6,13 +6,13 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://api-huacloud.dev/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_SS.yaml&url=https%3A%2F%2Fapi.xmancdn.com%2Fosubscribe.php%3Ftoken2%3Dq5xdxk5y-85a232cf1e23d79ego%26sip002%3D1"
+    url: "https://1da5d8a2743d.ai-163cdn.com/sub?target=clash&clash.doh=true&emoji=true&scv=true&udp=true&new_name=true&filename=YToo_Trojan&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D151289%26token%3DeeGUNPm15ltPNLSUgUfL"
     type: http
-    interval: 600
+    interval: 
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 300
+      interval: 60
     proxy: 直连
 
 # 节点信息
@@ -142,7 +142,8 @@ rules:
   - RULE-SET,ai,🤖 AI
   - RULE-SET,nintendo_domain,🎮 任天堂
   - RULE-SET,playstation_domain,🎮 Playstation
-  - RULE-SET,games_domain,🎮 Playstation
+  - RULE-SET,games_domain,🌐 全部节点
+  - RULE-SET,mihoyo_domain,🌐 全部节点
   - RULE-SET,github_domain,🧑🏻‍💻 GitHub
   - RULE-SET,youtube_domain,⏯️ YouTube
   - RULE-SET,google_domain,🔍 Google
@@ -172,6 +173,7 @@ rule-providers:
   nintendo_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nintendo.mrs"}
   playstation_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/playstation.mrs"}
   games_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/games.mrs"}
+  mihoyo_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/mihoyo.mrs"}
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
   github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
