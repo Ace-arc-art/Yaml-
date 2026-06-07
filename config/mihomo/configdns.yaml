@@ -6,7 +6,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://api-huacloud.dev/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_Trojan.yaml&url=https%3A%2F%2Fapi.xmancdn.com%2Fosubscribe.php%3Ftoken2%3Dq46vw7jq-9908e3b928mu75k04g"
+    url: "https://api-huacloud.dev/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_Trojan.yaml&url=https%3A%2F%2Fapi.xmancdn.com%2Fosubscribe.php%3Ftoken2%3Dq5xdxk5y-85a232cf1e23d79ego"
     type: http
     interval: 
     health-check:
