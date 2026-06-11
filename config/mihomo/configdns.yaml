@@ -6,13 +6,13 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://161.129.35.81/?L1N1YnNjcmlwdGlvbi9DbGFzaD90PWFueXRsc19jbGFzaCZzaWQ9OTQwNDYmdG9rZW49SG9QOUU2Y1Y2U1cmbW09MTA0MTMyJmt0bW09Q2lMNEs5NUxVM0dQMmFaRU1aZTdCZz09JjAzMjU3YWRlNGI1YTRkNGI4ZDIxZjAyMTRhNzIwMzImbW09MTA0MTMyJmt0bW09Q2lMNEs5NUxVM0ZnNSUyZnBrOUJUbVBnJTNkJTNkJmQyNjkxMWI="
+    url: "https://04f70e28743a.oxycontinon.com/osubscribe.php?sid=151289&token=oi9xodni2uRMwNACL9a4&auto=1"
     type: http
     interval: 
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 60
+      interval: 180
     proxy: 直连
 
 # 节点信息
